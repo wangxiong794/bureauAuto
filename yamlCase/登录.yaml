@@ -1,0 +1,23 @@
+输入正确的用户名、密码:
+  account : admin1
+  password : nky2018
+  assert : 祝您开心每一天！
+
+
+输入正确的用户名、错误密码:
+  account : 18042477732
+  password : 18042477732!@#
+  assert : 账户或密码错误
+
+不输入用户名、密码:
+  account : ""
+  password : ""
+  assert : 请输入账户名！
+
+输入正确的用户名、不输入密码:
+  account : 18042477732
+  password : ""
+  assert : 请输入密码！
+
+
+
